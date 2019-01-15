@@ -4,6 +4,8 @@ A reproduction of a bug.`this.authenticatedRoute` from `torii` works in Ember 3.
 
 Run tests or open the app and go to `/authenticated` (you should be redirected to `/login` but on 3.6 and higher that does not happen).
 
+`ember try:each` will run 3.5, 3.6 and 3.7. I also ran the 3.6 betas (they are commented out in the config) -- it fails all the way back to the first beta of 3.6.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -17,7 +19,7 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * `cd torii-test`
-* `npm install`
+* `yarn install`
 
 ## Running / Development
 
