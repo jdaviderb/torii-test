@@ -1,7 +1,8 @@
 # torii-test
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A reproduction of a bug.`this.authenticatedRoute` from `torii` works in Ember 3.5 and fails in Ember > 3.6
+
+Run tests or open the app and go to `/authenticated` (you should be redirected to `/login` but on 3.6 and higher that does not happen).
 
 ## Prerequisites
 
