@@ -7532,10 +7532,9 @@ to-utf8@0.0.1:
   resolved "https://registry.yarnpkg.com/to-utf8/-/to-utf8-0.0.1.tgz#d17aea72ff2fba39b9e43601be7b3ff72e089852"
   integrity sha1-0Xrqcv8vujm55DYBvns/9y4ImFI=
 
-torii@^0.10.1:
+"torii@git://github.com/jdaviderb/torii.git#handle-merge-deprecation":
   version "0.10.1"
-  resolved "https://registry.yarnpkg.com/torii/-/torii-0.10.1.tgz#caad0a81e82189fc0483b65e68ee28041ad3590f"
-  integrity sha512-csUz/coeSumt9FjyIXLpRj0ii7TfH3fUm3x9rdf+XXnJ0tVTKqwCRynwY0HKuNkGzACyR84hog3B9a8BQefBHA==
+  resolved "git://github.com/jdaviderb/torii.git#2847792feb701e423ef114087e29d3bae835f45c"
   dependencies:
     ember-cli-babel "^6.11.0"
 

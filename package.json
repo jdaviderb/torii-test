@@ -42,7 +42,7 @@
     "eslint-plugin-ember": "^5.2.0",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.0",
-    "torii": "^0.10.1"
+    "torii": "git://github.com/jdaviderb/torii.git#handle-merge-deprecation"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
